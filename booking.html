@@ -41,50 +41,32 @@
     <script type="text/javascript" src="scripts/all-plugins.js"></script>
     <script type="text/javascript" src="scripts/plugins-activate.js"></script>
     <style>
-      @keyframes spinner {
-        0% {
-          transform: translate3d(-50%, -50%, 0) rotate(0deg);
-        }
-        100% {
-          transform: translate3d(-50%, -50%, 0) rotate(360deg);
-        }
-      }
-      .spin::before {
-        animation: 1.5s linear infinite spinner;
-        animation-play-state: inherit;
-        border: solid 5px #cfd0d1;
-        border-bottom-color: #1c87c9;
-        border-radius: 50%;
-        content: "";
-        height: 40px;
-        width: 40px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate3d(-50%, -50%, 0);
-        will-change: transform;
+      main {
+        width: 100%;
+        margin: 0 auto;
       }
       iframe {
-        height: 100vh !important;
+        height: 99vh !important;
         width: 100%;
+      }
+      header {
+        background-color: #1db2f5;
+        color: white;
+        padding: 10px;
       }
     </style>
   </head>
-  <body id="page-top">
-    <!-- Travel start Iframe -->
-    <div id="logs" class="theme-blue"></div>
-    <iframe
-      id="travelstartIframe-0ad1e6e3-ba5e-4575-8cde-a5397f475318"
-      frameborder="0"
-      scrolling="auto"
-      style="
-        margin: 0px;
-        padding: 0px;
-        border: 0px;
-        height: 0px;
-        background-color: #fafafa;
-      "
-    ></iframe>
+  <body id="page-to">
+    <!-- Navigation -->
+    <main>
+      <!-- Travel start Iframe -->
+      <div id="logs" class="theme-blue"></div>
+      <iframe
+        id="travelstartIframe-0ad1e6e3-ba5e-4575-8cde-a5397f475318"
+        frameborder="0"
+        scrolling="auto"
+      ></iframe>
+    </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script
       type="text/javascript"
