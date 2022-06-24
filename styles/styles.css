@@ -9766,3 +9766,8 @@ footer.footer p.small a.focus {
   background: greenyellow;
   color: black;
 }
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
