@@ -9327,9 +9327,10 @@ span {
 }
 #Banner {
   position: relative;
-  height: 100vh;
+  height: 70vh;
   /* background: linear-gradient(274deg, #46c8d0, #6262e2 44%, #c962f7); */
-  background: #1db2f5;
+  /* background: #1db2f5; */
+  background: url(../images/aeroplane.jpg) no-repeat center center scroll;
   color: #fff;
 }
 #Banner .content-wrap {
@@ -9758,7 +9759,7 @@ footer.footer p.small a.focus {
 }
 /* Styles Begins */
 .theme-blue {
-  background: #1db2f5;
+  background: #1db2f5 !important;
 }
 
 .btn-orange {
