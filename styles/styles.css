@@ -9327,7 +9327,7 @@ span {
 }
 #Banner {
   position: relative;
-  height: 70vh;
+  height: 100vh;
   background: url(../images/aeroplane.jpg) no-repeat center center scroll;
   color: #fff;
 }
