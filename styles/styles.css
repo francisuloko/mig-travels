@@ -9328,8 +9328,6 @@ span {
 #Banner {
   position: relative;
   height: 70vh;
-  /* background: linear-gradient(274deg, #46c8d0, #6262e2 44%, #c962f7); */
-  /* background: #1db2f5; */
   background: url(../images/aeroplane.jpg) no-repeat center center scroll;
   color: #fff;
 }
@@ -9371,7 +9369,6 @@ span {
 #Services .service-icon {
   width: 100%;
   height: 220px;
-  padding: 20px;
   text-align: center;
   transition: all 0.5s ease;
 }
@@ -9397,13 +9394,19 @@ span {
 }
 #Services .service-box .service-icon .front-content {
   position: relative;
-  top: 80px;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
 }
+
+.img-circle {
+  border-radius: 100%;
+}
+
 #Services .service-box .service-icon .front-content i {
   font-size: 28px;
   color: #fff;
@@ -9766,9 +9769,84 @@ footer.footer p.small a.focus {
   background: greenyellow;
   color: black;
 }
-.whatsapp {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 10;
+.offer p,
+.portfolio p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.bg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background-color: #1e3945;
+}
+
+section.how-it-works {
+  background-color: #f1f1f1;
+}
+
+.how-it-works h2 {
+  margin-bottom: 1.8rem;
+}
+
+.how-it-works .box {
+  text-align: left;
+  border-left: 18px solid #f1f1f1;
+  background-color: #fff;
+}
+
+.box::before {
+  content: "\f058";
+  color: #d60e96;
+  font-family: FontAwesome;
+  font-weight: 400;
+  font-style: normal;
+  display: block;
+  position: absolute;
+  left: -15px;
+  top: 50%;
+  margin-top: -25px;
+  font-size: 2.5rem;
+}
+
+@media (min-width: 600px) {
+  .how-it-works .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .box.col-md-6 {
+    width: 47%;
+    max-width: 47%;
+  }
+}
+
+.nav a {
+  color: white;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a.book-now:hover {
+  text-decoration: none;
 }

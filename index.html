@@ -1,358 +1,531 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="images/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="images/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <title>MIG Travels</title>
+    <!--stylesheet-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link href="styles/styles.css" rel="stylesheet" type="text/css" />
+    <link
+      href="styles/custom-responsive-styles.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--scripts-->
+    <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="scripts/all-plugins.js"></script>
+    <script type="text/javascript" src="scripts/plugins-activate.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
-  <title>MIG Travels</title>
-  <!--stylesheet-->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="styles/styles.css" rel="stylesheet" type="text/css">
-  <link href="styles/custom-responsive-styles.css" rel="stylesheet" type="text/css">
-  <!--scripts-->
-  <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="scripts/all-plugins.js"></script>
-  <script type="text/javascript" src="scripts/plugins-activate.js"></script>
-</head>
+  <body id="home">
+    <!-- HEADER -->
+    <header
+      id="site-header"
+      class="d-flex justify-content-between p-3 sticky-lg-top"
+    >
+      <div class="d-flex align-items-center justify-content-center">
+        <i
+          class="fa fa-eercast text-white mx-1"
+          style="font-size: 28px"
+          aria-hidden="true"
+        ></i>
+        <h3 class="text-white p-0 m-0">migtravels</h3>
+      </div>
 
-<body id="page-top">
-  <!-- Navigation -->
-  <div class="logo d-flex align-items-center justify-content-center">
-    <i  style="font-size: 26px;" class="fa fa-plane theme-blue px-3 py-2 rounded" aria-hidden="true"></i><span class="">MIG Travels</span>
-  </div>
-  <a class="menu-toggle rounded" href="#">
-    <i class="fa fa-bars"></i>
-  </a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <li class="sidebar-brand">
-        <a class="smooth-scroll" href="#Header"></a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="smooth-scroll" href="#page-top">Home</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="smooth-scroll" href="#About">About</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="smooth-scrol" href="./ticket/ecwid.html">Services</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="smooth-scroll" href="#Portfolio">Portfolio</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="smooth-scroll" href="#Testimonials">Testimonials</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="smooth-scroll" href="#Contact">Contact</a>
-      </li>
-    </ul>
-  </nav>
-  <a class="whatsapp" href="https://wa.me/message/U5VT2NIQFYQXM1">
-    <img width="60" height="60" src="./images/whatsapp.png" alt="whatsapp link">
-  </a>
-  <!-- Header Starts -->
-  <section id="Banner" class="content-section">
-    <div class="container content-wrap text-center">
-      <h1>Book Cheap Flights</h1>
-      <h3>
+      <div class="nav d-flex">
+        <a class="nav-item nav-link" href="#home">Home</a>
+        <a class="nav-item nav-link" href="#Portfolio">Popular</a>
+        <a class="nav-item nav-link" href="Services">Why Us?</a>
+        <a class="nav-item nav-link" href="#howitworks">How It Works</a>
+        <a
+          href="/booking.html"
+          class="nav-link theme-blue rounded text-white book-now"
+          >BOOK NOW</a
+        >
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="Banner" class="content-section">
+      <div class="container content-wrap text-center">
+        <h1>Book Cheap Flights</h1>
+        <h3>
           <em>Keep Booking, Never Stop Traveling</em>
         </h3>
-      <a class="btn theme-blue px-5 py-3 fs-1 text-white btn-xl smooth-scrol" href="/booking.html">Book Now</a>
-    </div>
-    <div class="overlay"></div>
-  </section>
-  <!-- Header Ends -->
-  <section id="Services" class="content-section text-center">
-    <div class="container">
-      <div class="block-heading">
-        <h2>What We Offer</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <a
+          class="btn theme-blue px-5 py-3 fs-5 text-white btn-xl font-weight-bold"
+          href="/booking.html"
+          >BOOK NOW</a
+        >
       </div>
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <div class="service-box">
-            <div class="service-icon yellow">
-              <div class="front-content">
-                <i class="fa fa-globe" aria-hidden="true"></i>
-                <h3>Family Travel</h3>
-              </div>
-            </div>
-            <div class="service-content">
-              <h3>Family Travel</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="service-box">
-            <div class="service-icon orange">
-              <div class="front-content">
-                <i class="fa fa-suitcase"></i>
-                <h3>Business Travel</h3>
-              </div>
-            </div>
-            <div class="service-content">
-              <h3>Business Travel</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="service-box ">
-            <div class="service-icon red">
-              <div class="front-content">
-                <i class="fa fa-male" aria-hidden="true"></i>
-                <h3>Student Travel</h3>
-              </div>
-            </div>
-            <div class="service-content">
-              <h3>Student Travel</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="service-box">
-            <div class="service-icon grey">
-              <div class="front-content">
-                <i class="fa fa-users"></i>
-                <h3>Vacation</h3>
-              </div>
-            </div>
-            <div class="service-content">
-              <h3>Vacation</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <!-- Portfolio -->
-  <section class="content-section text-center" id="Portfolio">
-    <div class="container">
-      <div class="block-heading">
-        <h2>Portfolio</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      </div>
-      <div class="portfolio-wrapper clearfix">
-        <a class="each-portfolio" data-fancybox="gallery" href="images/p-two.jpeg">
-          <div class="content hover-cont-wrap">
-            <div class="content-overlay"></div>
-            <img class="content-image" src="images/p-two.jpeg">
-            <div class="content-details fadeIn-bottom">
-              <h5 class="p-title">Title</h5>
-              <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <span class="zoom"><i class="fa fa-search-plus"></i></span>
-            </div>
-          </div>
-        </a>
-        <a class="each-portfolio" data-fancybox="gallery" href="images/p-three.jpeg">
-          <div class="content hover-cont-wrap">
-            <div class="content-overlay"></div>
-            <img class="content-image" src="images/p-three.jpeg">
-            <div class="content-details fadeIn-bottom">
-              <h5 class="p-title">Title</h5>
-              <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <span class="zoom"><i class="fa fa-search-plus"></i></span>
-            </div>
-          </div>
-        </a>
-        <a class="each-portfolio" data-fancybox="gallery" href="images/p-four.jpeg">
-          <div class="content hover-cont-wrap">
-            <div class="content-overlay"></div>
-            <img class="content-image" src="images/p-four.jpeg">
-            <div class="content-details fadeIn-bottom">
-              <h5 class="p-title">Title</h5>
-              <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <span class="zoom"><i class="fa fa-search-plus"></i></span>
-            </div>
-          </div>
-        </a>
-        <a class="each-portfolio" data-fancybox="gallery" href="images/p-five.jpeg">
-          <div class="content hover-cont-wrap">
-            <div class="content-overlay"></div>
-            <img class="content-image" src="images/p-five.jpeg">
-            <div class="content-details fadeIn-bottom">
-              <h5 class="p-title">Title</h5>
-              <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <span class="zoom"><i class="fa fa-search-plus"></i></span>
-            </div>
-          </div>
-        </a>
-        <a class="each-portfolio" data-fancybox="gallery" href="images/p-six.jpeg">
-          <div class="content hover-cont-wrap">
-            <div class="content-overlay"></div>
-            <img class="content-image" src="images/p-six.jpeg">
-            <div class="content-details fadeIn-bottom">
-              <h5 class="p-title">Title</h5>
-              <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <span class="zoom"><i class="fa fa-search-plus"></i></span>
-            </div>
-          </div>
-        </a>
-        <a class="each-portfolio" data-fancybox="gallery" href="images/p-three.jpeg">
-          <div class="content hover-cont-wrap">
-            <div class="content-overlay"></div>
-            <img class="content-image" src="images/p-three.jpeg">
-            <div class="content-details fadeIn-bottom">
-              <h5 class="p-title">Title</h5>
-              <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <span class="zoom"><i class="fa fa-search-plus"></i></span>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  </section>
-  <!-- TESTIMONIALS -->
-  <section id="Testimonials" class="content-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="block-heading">
-            <h2>Testimonials</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          </div>
-          <div id="customers-testimonials" class="owl-carousel">
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="images/sarah.jpg" alt="">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-              </div>
-              <div class="testimonial-name">Sarah Jenks</div>
-            </div>
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="images/tangelia.jpg" alt="">
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
-              </div>
-              <div class="testimonial-name">Tangelia Ekhoff</div>
-            </div>
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="images/john-doe.jpg" alt="">
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-              </div>
-              <div class="testimonial-name">John Doe</div>
-            </div>
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="images/amy.jpg" alt="">
-                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words</p>
-              </div>
-              <div class="testimonial-name">Amy Tan</div>
-            </div>
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="images/daniel.jpg" alt="">
-                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
-              </div>
-              <div class="testimonial-name">Daniel Felsted</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- END OF TESTIMONIALS -->
-  <!-- <section id="Contact" class="content-section">
-    <div class="container">
-      <div class="block-heading">
-        <h2>Contact Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      </div>
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <div class="contact-wrapper">
-            <div class="address-block border-bottom">
-              <h3 class="add-title">Headquaters</h3>
-              <div class="c-detail">
-                <span class="c-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span><span class="c-info">&nbsp;35 Street - Cheyenne, CO 80810</span>
-              </div>
-              <div class="c-detail">
-                <span class="c-icon"><i class="fa fa-phone" aria-hidden="true"></i></span><span class="c-info">+123 4567 898</span>
-              </div>
-              <div class="c-detail">
-                <span class="c-icon"><i class="fa fa-envelope" aria-hidden="true"></i></span><span class="c-info">email@yourdomain.com</span>
-              </div>
-            </div>
-            <div class="address-block">
-              <h3 class="add-title">Branch</h3>
-              <div class="c-detail">
-                <span class="c-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span><span class="c-info">&nbsp;98 Berry - Cheyenne, CO 80810</span>
-              </div>
-              <div class="c-detail">
-                <span class="c-icon"><i class="fa fa-phone" aria-hidden="true"></i></span><span class="c-info">+123 4567 8987</span>
-              </div>
-              <div class="c-detail">
-                <span class="c-icon"><i class="fa fa-envelope" aria-hidden="true"></i></span><span class="c-info">email@yourdomain.com</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <div class="form-wrap">
-            <form action="javascript:void(0)" method="post">
-              <div class="fname floating-label">
-                <input type="text" class="floating-input" name="full name" />
-                <label for="title">First Name</label>
-              </div>
-              <div class="fname floating-label">
-                <input type="text" class="floating-input" name="full name" />
-                <label for="title">Last Name</label>
-              </div>
-              <div class="email floating-label">
-                <input type="email" class="floating-input" name="email" />
-                <label for="email">Email</label>
-              </div>
-              <div class="contact floating-label">
-                <input type="tel" class="floating-input" name="contact" />
-                <label for="email">Mobile</label>
-              </div>
-              <div class="company floating-label">
-                <textarea type="text" class="floating-input" name="company" /></textarea>
-                <label for="email">Message</label>
-              </div>
-              <div class="submit-btn">
-                <button type="submit">Submit</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
+      <div class="overlay"></div>
+    </section>
 
-  <footer class="footer text-center">
-    <div class="container">
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="javascript:void(0)">
+    <!-- WHY US -->
+    <section id="Services" class="content-section text-center">
+      <div class="container">
+        <div class="block-heading offer">
+          <h2>What We Offer</h2>
+          <p>
+            Whether you are travelling for work or leisure, we pick the perfect
+            travel deals from leading local airlines like Air Peace, Dana Air
+            and Arik Air as well as cheap flights on dozens of award-winning
+            international airlines like Emirates, British Airways, Virgin
+            Atlantic and more.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="service-box">
+              <div class="service-icon yellow bg">
+                <img src="images/family.jpg" alt="family" />
+                <div class="front-content">
+                  <i class="fa fa-globe" aria-hidden="true"></i>
+                  <h3 class="shadow">Family Travel</h3>
+                </div>
+              </div>
+              <div class="service-content">
+                <h3>Family Travel</h3>
+                <p>
+                  Planning your family's upcoming family vacation should be a
+                  fun experience! A family vacation can be one of the most
+                  memorable trips you will ever take.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="service-box">
+              <div class="service-icon orange bg">
+                <img src="images/business.jpg" alt="Business" />
+                <div class="front-content">
+                  <i class="fa fa-suitcase"></i>
+                  <h3>Business Travel</h3>
+                </div>
+              </div>
+              <div class="service-content">
+                <h3>Business Travel</h3>
+                <p>
+                  Save on business travels by choosing from the lowest fare. Say
+                  hello to faster, cheaper and safer business travels that keeps
+                  you happy.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="service-box">
+              <div class="service-icon red bg">
+                <img src="images/student.jpg" alt="Student" />
+                <div class="front-content">
+                  <i class="fa fa-male" aria-hidden="true"></i>
+                  <h3>Student Travel</h3>
+                </div>
+              </div>
+              <div class="service-content">
+                <h3>Student Travel</h3>
+                <p>Enjoy massive savings, while going to school for less.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="service-box">
+              <div class="service-icon grey bg">
+                <img src="images/vacations.jpg" alt="vaction" />
+                <div class="front-content">
+                  <i class="fa fa-users"></i>
+                  <h3>Vacation</h3>
+                </div>
+              </div>
+              <div class="service-content">
+                <h3>Vacation</h3>
+                <p>
+                  Book a vacation without burning a hole in your wallet and make
+                  your travel unforgettable!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="content-section text-center" id="Portfolio">
+      <div class="container">
+        <div class="block-heading portfolio">
+          <h2>Popular Destinations</h2>
+          <p>
+            We are your one-stop online travel shop. Forget trawling the web for
+            the latest flight specials. We bring you the best international and
+            domestic flights from all your favourite airlines.
+          </p>
+        </div>
+        <div class="portfolio-wrapper clearfix">
+          <a
+            class="each-portfolio"
+            data-fancybox="gallery"
+            href="images/london.jpg"
+          >
+            <div class="content hover-cont-wrap">
+              <div class="content-overlay"></div>
+              <img class="content-image" src="images/london.jpg" />
+              <div class="content-details fadeIn-bottom">
+                <h5 class="p-title">London</h5>
+                <p class="p-desc">
+                  When exploring London, you will come across lots of excitement
+                  by chance, so try to take everything in rather than just
+                  rushing around to all of the major tourist haunts.
+                </p>
+                <span class="zoom"><i class="fa fa-search-plus"></i></span>
+              </div>
+            </div>
+          </a>
+          <a
+            class="each-portfolio"
+            data-fancybox="gallery"
+            href="images/dubai.jpg"
+          >
+            <div class="content hover-cont-wrap">
+              <div class="content-overlay"></div>
+              <img class="content-image" src="images/dubai.jpg" />
+              <div class="content-details fadeIn-bottom">
+                <h5 class="p-title">Dubai</h5>
+                <p class="p-desc">
+                  A city of skyscrapers, ports, and beaches, where big busines
+                  takes place alongside sun-seeking tourism.
+                </p>
+                <span class="zoom"><i class="fa fa-search-plus"></i></span>
+              </div>
+            </div>
+          </a>
+          <a
+            class="each-portfolio"
+            data-fancybox="gallery"
+            href="images/abuja.webp"
+          >
+            <div class="content hover-cont-wrap">
+              <div class="content-overlay"></div>
+              <img class="content-image" src="images/abuja.jpg" />
+              <div class="content-details fadeIn-bottom">
+                <h5 class="p-title">Abuja</h5>
+                <p class="p-desc">
+                  You can enjoy the sights in Abuja regardless of your budget.
+                  All you need is an adventurer's eye and a good camera.
+                </p>
+                <span class="zoom"><i class="fa fa-search-plus"></i></span>
+              </div>
+            </div>
+          </a>
+          <a
+            class="each-portfolio"
+            data-fancybox="gallery"
+            href="images/toronto.jpg"
+          >
+            <div class="content hover-cont-wrap">
+              <div class="content-overlay"></div>
+              <img class="content-image" src="images/toronto.jpg" />
+              <div class="content-details fadeIn-bottom">
+                <h5 class="p-title">Toronto</h5>
+                <p class="p-desc">
+                  The fact that over 50 per cent of the residents of Toronto are
+                  not from Canada, that is always a good thing, creatively, and
+                  for food especially.
+                </p>
+                <span class="zoom"><i class="fa fa-search-plus"></i></span>
+              </div>
+            </div>
+          </a>
+          <a
+            class="each-portfolio"
+            data-fancybox="gallery"
+            href="images/newyork.jpg"
+          >
+            <div class="content hover-cont-wrap">
+              <div class="content-overlay"></div>
+              <img class="content-image" src="images/newyork.jpg" />
+              <div class="content-details fadeIn-bottom">
+                <h5 class="p-title">New York City, NY</h5>
+                <p class="p-desc">
+                  New York believes that something good is about to come off,
+                  and it must hurry to meet it. New York is a work of art in and
+                  of itself.
+                </p>
+                <span class="zoom"><i class="fa fa-search-plus"></i></span>
+              </div>
+            </div>
+          </a>
+          <a
+            class="each-portfolio"
+            data-fancybox="gallery"
+            href="images/manchester.jpg"
+          >
+            <div class="content hover-cont-wrap">
+              <div class="content-overlay"></div>
+              <img class="content-image" src="images/manchester.jpg" />
+              <div class="content-details fadeIn-bottom">
+                <h5 class="p-title">Manchester</h5>
+                <p class="p-desc">
+                  The city is notable for its architecture, culture, musical
+                  exports, media links, scientific and engineering output,
+                  social impact, sports clubs and transport connections.
+                </p>
+                <span class="zoom"><i class="fa fa-search-plus"></i></span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="howitworks" class="content-section how-it-works">
+      <div class="container">
+        <div class="row">
+          <div class="text-center col-md-8 mx-auto">
+            <h2>How it Works</h2>
+          </div>
+        </div>
+
+        <div class="row content">
+          <div class="row pb-5">
+            <div class="col-md-6 mt-2 mt-md-0 p-2 pl-4 box mb-3">
+              <div
+                class="d-flex p-3 bg-white align-items-center justify-content-between"
+              >
+                <div class="p-1">
+                  <h3 class="h4 mt-3">1. Destination</h3>
+                  <p class="mt-3">
+                    Enter your departure city, arrival destination, and travel
+                    dates and search.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 mt-2 mt-md-0 p-2 pl-4 box mb-3">
+              <div
+                class="d-flex p-3 bg-white align-items-center justify-content-between"
+              >
+                <div class="p-1">
+                  <h3 class="h4 mt-3">Flight</h3>
+                  <p class="mt-3">
+                    Select the flight option most suited to your schedule and
+                    budget.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 mt-2 mt-md-0 p-2 pl-4 box mb-3">
+              <div
+                class="d-flex p-3 bg-white align-items-center justify-content-between"
+              >
+                <div class="p-1">
+                  <h3 class="h4 mt-3">Particulars</h3>
+                  <p class="mt-3">
+                    Insert the correct passenger details according to passport /
+                    ID book.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 mt-2 mt-md-0 p-2 pl-4 box mb-3">
+              <div
+                class="d-flex p-3 bg-white align-items-center justify-content-between"
+              >
+                <div class="p-1">
+                  <h3 class="h4 mt-3">Options</h3>
+                  <p class="mt-3">
+                    Opt to purchase rebookable flights, baggage or travel
+                    insurance.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 mt-2 mt-md-0 p-2 pl-4 box mb-3">
+              <div
+                class="d-flex p-3 bg-white align-items-center justify-content-between"
+              >
+                <div class="p-1">
+                  <h3 class="h4 mt-3">Payment</h3>
+                  <p class="mt-3">Select your preferred payment method.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 mt-2 mt-md-0 p-2 pl-4 box mb-3">
+              <div
+                class="d-flex p-3 bg-white align-items-center justify-content-between"
+              >
+                <div class="p-1">
+                  <h3 class="h4 mt-3">Confirmation</h3>
+                  <p class="mt-3">
+                    Once payment is received, you will receive booking
+                    confirmation via email.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="Testimonials" class="content-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="block-heading">
+              <h2>Testimonials</h2>
+              <p>What satistied customers are saying about us</p>
+            </div>
+            <div id="customers-testimonials" class="owl-carousel">
+              <div class="item">
+                <div class="shadow-effect">
+                  <img
+                    id="testimony-1"
+                    class="img-circle"
+                    src="images/testimony-1.jpg"
+                    alt=""
+                  />
+                  <p>migtravels is simply the best for me.</p>
+                </div>
+                <div class="testimonial-name">Gloria</div>
+              </div>
+              <div class="item">
+                <div class="shadow-effect">
+                  <img class="img-circle" src="images/testimony-2.jpg" alt="" />
+                  <p>
+                    Thanks so much for helping me get an affordable ticket for
+                    my trip. Well done guys. Brilliant Staff I must confess.
+                  </p>
+                </div>
+                <div class="testimonial-name">Mohd Yahaya</div>
+              </div>
+              <div class="item">
+                <div class="shadow-effect">
+                  <img class="img-circle" src="images/john-doe.jpg" alt="" />
+                  <p>
+                    They are really amazing.
+                  </p>
+                </div>
+                <div class="testimonial-name">John Samuel</div>
+              </div>
+              <div class="item">
+                <div class="shadow-effect">
+                  <img class="img-circle" src="images/amy.jpg" alt="" />
+                  <p>
+                   Fast and Flexible Service, migtravelsis customer friendly.
+                  </p>
+                </div>
+                <div class="testimonial-name">Amy Tan</div>
+              </div>
+              <div class="item">
+                <div class="shadow-effect">
+                  <img class="img-circle" src="images/daniel.jpg" alt="" />
+                  <p>
+                    It's realiable and fast, the most easiest and comfortable way of transportation.
+                  </p>
+                </div>
+                <div class="testimonial-name">Daniel Felsted</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF TESTIMONIALS -->
+
+    <footer class="footer text-center">
+      <div class="container">
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a
+              class="social-link rounded-circle text-white mr-3"
+              href="javascript:void(0)"
+            >
               <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="javascript:void(0)">
+          </li>
+          <li class="list-inline-item">
+            <a
+              class="social-link rounded-circle text-white mr-3"
+              href="javascript:void(0)"
+            >
               <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="javascript:void(0)">
+          </li>
+          <li class="list-inline-item">
+            <a
+              class="social-link rounded-circle text-white"
+              href="javascript:void(0)"
+            >
               <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
-        </li>
-      </ul>
-      <p class="text-muted small mb-0">Copyright © Your Website 2022</p>
-    </div>
-  </footer>
-</body>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright © migtravels 2022</p>
+      </div>
+    </footer>
+    <script
+      type="text/javascript"
+      src="https://popupsmart.com/freechat.js"
+    ></script>
+    <script>
+      window.start.init({
+        title: "Hi there ✌️",
+        message:
+          "How may we help you? Just send us a message now to get assistance.",
+        color: "#1db2f5",
+        position: "right",
+        placeholder: "Enter your message",
+        withText: "Write with",
+        viaWhatsapp: "Or write us directly via Whatsapp",
+        gty: "Go to your",
+        awu: "and write us",
+        connect: "Connect now",
+        button: "Write us",
+        device: "everywhere",
+        services: [{ name: "whatsapp", content: "+2348065818531" }],
+      });
+    </script>
 
+    <script type="text/javascript" src="scripts/seo.js"></script>
+  </body>
 </html>
