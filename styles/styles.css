@@ -9405,6 +9405,8 @@ span {
 
 .img-circle {
   border-radius: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 #Services .service-box .service-icon .front-content i {
